@@ -34,6 +34,8 @@ namespace acme.order.api.Controllers
 
             try
             {
+                //## Codigo comentado por que la API suministrada no está disponible (se uso datos de prueba en su lugar)##
+
                 //var content = new StringContent(xmlObject, Encoding.UTF8, "application/xml");
 
                 _logger.LogDebug($"Sending Ship Order Request To External API: {apiUrl}");
