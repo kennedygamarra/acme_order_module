@@ -1,6 +1,6 @@
 # ACME API REST
 
-**NOTA:** Se han implementado dos endpoint debido a que el endpoint suministrado en la prueba (`https://run.mocky.io/v3/19217075-6d4e-4818-98bc-416d1feb7b84`) no está disponible. Por lo que (`api/v1/Order/ShipOrder/`) apunta al anterior mencionado y (`api/v1/Order/ShipOrderPrueba/`) se usa con datos de prueba que se han proporcionado para demostrar el funcionamiento del servicio.
+**NOTA:** Se han implementado dos endpoint debido a que el endpoint suministrado en la prueba (`https://run.mocky.io/v3/19217075-6d4e-4818-98bc-416d1feb7b84`) no está disponible. Por lo que (`api/v1/Order/ShipOrder/`) apunta al anterior mencionado y (`api/v1/Order/ShipOrderTesting/`) se usa con datos de prueba que se han proporcionado para demostrar el funcionamiento del servicio.
 
 
 Implementar un servicio a través de una API REST para el ciclo de abastecimiento donde se debe enviar la información de los pedidos a través de esta API con mensajería JSON, para que de esta forma el servicio le retorne información del sistema de envío de pedidos.
